@@ -2,7 +2,6 @@
 import './App.css';
 import Calculator from './components/calculator';
 import { Component } from 'react';
-import { extend } from 'lodash';
 
 class App extends Component {
   render() {
