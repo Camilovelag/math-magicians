@@ -20,9 +20,11 @@ class Calculator extends Component {
     const { total, next, operation } = this.state;
     return (
       <div className="calculator">
-        <p className="display">{next}</p>
-        <p className="display">{operation}</p>
-        <p className="display">{total}</p>
+        <div className="display">
+          <p>{total}</p>
+          <p>{operation}</p>
+          <p>{next}</p>
+        </div>
         <div className="pad">
           <div>
             <button type="button" name="AC" onClick={this.handleClick} className="button gray">AC</button>
