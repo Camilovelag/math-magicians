@@ -9,9 +9,15 @@ const Home = () => {
   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
   culpa qui officia deserunt mollit anim id est laborum.`;
 
+  const homeStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '2rem',
+  };
+
   return (
-    <div>
-      <h1>Welcome to our page!</h1>
+    <div style={homeStyle}>
+      <h2>Welcome to our page!</h2>
       <p>{lorem}</p>
       <p>{lorem}</p>
     </div>
