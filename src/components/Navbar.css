@@ -5,7 +5,8 @@ header {
   padding-bottom: 2rem;
 }
 
-ul, nav {
+ul,
+nav {
   display: flex;
   align-self: center;
 }
@@ -13,18 +14,18 @@ ul, nav {
 li {
   list-style: none;
   border-right: 3px solid #333;
-  padding: 0 10px;
   cursor: pointer;
 }
 
-a:hover{
+a {
+  padding: 0 10px;
+  color: #099ddd;
+}
+
+a:hover {
   background-color: #ddd;
 }
 
 li:last-child {
   border-right: none;
-}
-
-a {
-  color: #099ddd;
 }
