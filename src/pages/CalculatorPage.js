@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Calculator from '../logic/Calculator';
+import Calculator from '../components/Calculator';
 
 const CalculatorPage = () => {
   const calcPageStyle = {
