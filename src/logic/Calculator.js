@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Calculator.css';
-import calculate from '../logic/calculate';
+import calculate from './calculate';
 
 const initialState = {
   total: null,
