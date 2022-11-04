@@ -1,3 +1,12 @@
-body {
+html * {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #333;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
   background-color: #f0f0f0;
+}
+
+body {
+  padding: 1rem 2rem;
 }

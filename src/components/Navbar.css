@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+ul,
+nav {
+  display: flex;
+  align-self: center;
+}
+
+li {
+  list-style: none;
+  border-right: 3px solid #333;
+  cursor: pointer;
+}
+
+a {
+  padding: 0 10px;
+  color: #099ddd;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+li:last-child {
+  border-right: none;
+}
