@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from '../components/Calculator'; // eslint-disable-line
+import Calculator from '../components/Calculator';
 
 const CalculatorPage = () => {
   const calcPageStyle = {
